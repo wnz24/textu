@@ -1,0 +1,38 @@
+.color-palette {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+  padding: 20px 0;
+  div {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 2px 10px;
+    border: 2px solid #975555;
+    display: inline-block;
+    opacity: 0.5;
+    &.active{
+      opacity: 1;
+    }
+  }
+}
+
+.color-blue {
+  background-color: #0008ff;
+}
+
+.color-green {
+  background-color: #00ff00;
+}
+
+.color-orange {
+  background-color: #ff8400;
+}
+.color-red {
+  background-color: #ff3300;
+}
+.color-purple {
+  background-color: #ff00ee;
+}
